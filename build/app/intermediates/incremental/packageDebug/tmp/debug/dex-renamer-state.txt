@@ -1,0 +1,4 @@
+#Fri Nov 25 10:11:20 AMT 2022
+base.0=/home/ernesto/Documentos/workspace/curso_flutter/webapi_journal_flutter-main/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

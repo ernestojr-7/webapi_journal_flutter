@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "email": "teste@gmail.com",
+      "password": "$2a$10$LBSfrXMsZ1twKfxzWydu3.0f6Xk/Xdb8eFwvEYMhi3DzTvc2FjlTG",
+      "id": 1
+    },
+    {
+      "email": "teste2@gmail.com",
+      "password": "$2a$10$a3jyUS7kHaUII2V/WDvLrOqD1YMrDBcYeKUfigermu2ozw/vFmMji",
+      "id": 2
+    }
+  ],
+  "learnhttp": {},
+  "journals": [
+    {
+      "id": "9c451cb0-6d36-11ed-bd0d-43ef312d5384",
+      "content": "opa dia 23",
+      "created_at": "2022-11-23 23:01:17.381",
+      "updated_at": "2022-11-23 23:01:17.381",
+      "userId": "1"
+    },
+    {
+      "id": "a0a7b380-6d36-11ed-bd0d-43ef312d5384",
+      "content": "opa dia 24",
+      "created_at": "2022-11-24 23:01:17.381",
+      "updated_at": "2022-11-24 23:01:17.381",
+      "userId": "1"
+    },
+    {
+      "id": "a7d74d00-6d36-11ed-bd0d-43ef312d5384",
+      "content": "opa dia 16",
+      "created_at": "2022-11-16 23:01:17.381",
+      "updated_at": "2022-11-16 23:01:17.381",
+      "userId": "1"
+    },
+    {
+      "id": "c1736460-6d36-11ed-bd0d-43ef312d5384",
+      "content": "opa dia 18 mmm",
+      "created_at": "2022-11-18 23:01:17.381",
+      "updated_at": "2022-11-18 23:01:17.381",
+      "userId": "1"
+    },
+    {
+      "id": "cd62f6f0-6d36-11ed-bd0d-43ef312d5384",
+      "content": "dom dia 20",
+      "created_at": "2022-11-20 23:01:17.381",
+      "updated_at": "2022-11-20 23:01:17.381",
+      "userId": "1"
+    },
+    {
+      "id": "db2a1dc0-6d38-11ed-bd0d-43ef312d5384",
+      "content": "usuario 2",
+      "created_at": "2022-11-23 23:17:18.322",
+      "updated_at": "2022-11-23 23:17:18.322",
+      "userId": "2"
+    },
+    {
+      "id": "0fd40330-6f21-11ed-8340-95e114296902",
+      "content": "olha o dia 22",
+      "created_at": "2022-11-22 09:31:57.473",
+      "updated_at": "2022-11-22 09:31:57.473",
+      "userId": "1"
+    }
+  ]
+}
