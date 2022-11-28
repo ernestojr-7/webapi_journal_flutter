@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
@@ -98,7 +99,14 @@ class LoginScreen extends StatelessWidget {
           }
         },
       );
-    }, test: (e) => e is UserNotFoundException).catchError((e) {
+    }, test: (e) => e is UserNotFoundException).catchError(
+      (error) {
+        showExceptionDialog(context,
+            content:
+                "O servidor demorou para responder. Tente novamente mais tarde!");
+      },
+      test: (error) => error is TimeoutException,
+    ).catchError((e) {
       HttpException exception = e as HttpException;
       showExceptionDialog(context, content: exception.message);
     }, test: (e) => e is HttpException);
