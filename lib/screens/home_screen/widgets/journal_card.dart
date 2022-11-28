@@ -107,7 +107,6 @@ class JournalCard extends StatelessWidget {
     } else {
       return InkWell(
         onTap: () {
-          print("ACHEI VOCE");
           callAddJournalScreen(context);
         },
         child: Container(

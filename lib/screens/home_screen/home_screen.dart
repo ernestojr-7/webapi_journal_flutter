@@ -108,7 +108,6 @@ class _HomeScreenState extends State<HomeScreen> {
             },
           );
         } else {
-          print("JOGOU PARA LOGIN DE NOVO!");
           Navigator.pushReplacementNamed(context, "login");
         }
       },

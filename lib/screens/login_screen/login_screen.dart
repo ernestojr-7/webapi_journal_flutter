@@ -76,11 +76,9 @@ class LoginScreen extends StatelessWidget {
     String email = _emailController.text;
     String password = _passController.text;
 
-    print("LOGIN SAFADO 0");
     authService.login(email: email, password: password).then(
       (token) {
         Navigator.pushReplacementNamed(context, "home");
-        print("Fez login -> SAFADO");
       },
     ).catchError((e) {
       showConfirmationDialog(

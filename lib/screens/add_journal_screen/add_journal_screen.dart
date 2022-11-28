@@ -87,7 +87,7 @@ class _AddJournalScreenState extends State<AddJournalScreen> {
         );
       } else {
         // POST
-        print("Estou criando");
+
         service.register(widget.journal).then(
           (result) {
             if (result) {
